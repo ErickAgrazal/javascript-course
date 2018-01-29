@@ -29,12 +29,18 @@ Objetivo General
 
 Objetivos Específicos
 ---------------------
-- Entender qué es <span style="color: #e49436">Javascript</span> como lenguaje de programación.
-- Aprender la <span style="color: #e49436">sintaxis</span> para y utilizar <span style="color: #e49436">funciones básicas</span> del lenguaje.
-- Conocer elementos como <span style="color: #e49436">funciones</span>, <span style="color: #e49436">arreglos</span> y <span style="color: #e49436">objetos</span> del lenguaje.
-- Conocer los <span style="color: #e49436">principales</span> objetos de javascript en el entorno web.
-- Acceder y editar elementos <span style="color: #e49436">HTML/CSS</span>.
-- Conocer el entorno de trabajo (Framework) <span style="color: #e49436">JQuery</span> y utilizarlo para interactuar con elementos de un sitio web.
+###### - Entender qué es <span style="color: #e49436">Javascript</span> como lenguaje de programación.
+###### - Aprender la <span style="color: #e49436">sintaxis</span> para y utilizar <span style="color: #e49436">funciones básicas</span> del lenguaje.
+###### - Conocer elementos como <span style="color: #e49436">funciones</span>, <span style="color: #e49436">arreglos</span> y <span style="color: #e49436">objetos</span> del lenguaje.
+###### - Conocer los <span style="color: #e49436">principales</span> objetos de javascript en el entorno web.
+
+---
+
+Objetivos Específicos
+---------------------
+###### - Acceder y editar elementos <span style="color: #e49436">HTML/CSS</span>.
+###### - Conocer el entorno de trabajo (Framework) <span style="color: #e49436">JQuery</span> y utilizarlo para interactuar con elementos de un sitio web.
+###### - Conocer los <span style="color: #e49436">patrones</span> más utilizados a la hora de trabajar en el proyectos de Javascript.
 
 ---
 
