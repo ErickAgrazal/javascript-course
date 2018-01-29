@@ -29,12 +29,12 @@ Objetivo General
 
 Objetivos Específicos
 ---------------------
-###### - Entender qué es Javascript como lenguaje de programación.
-###### - Aprender la sintaxis para y utilizar funciones básicas del lenguaje.
-###### - Conocer elementos como funciones, arreglos y objetos del lenguaje.
-###### - Conocer los principales objetos de javascript en el entorno web.
-###### - Acceder y editar elementos HTML/CSS.
-###### - Conocer el entorno de trabajo (Framework) JQuery y utilizarlo para interactuar con elementos de un sitio web.
+- Entender qué es Javascript como lenguaje de programación.
+- Aprender la sintaxis para y utilizar funciones básicas del lenguaje.
+- Conocer elementos como funciones, arreglos y objetos del lenguaje.
+- Conocer los principales objetos de javascript en el entorno web.
+- Acceder y editar elementos HTML/CSS.
+- Conocer el entorno de trabajo (Framework) JQuery y utilizarlo para interactuar con elementos de un sitio web.
 
 ---
 
@@ -45,11 +45,11 @@ Objetivos Específicos
 
 Agenda
 ------
-###### - ¡Javascript en el mundo de hoy!
-###### - Instalación del ambiente de trabajo (VM, Linux, VSCode).
-###### - Familiarización con el ambiente de trabajo.
-###### - ¡Javascripting!
-###### - Laboratorios ... muchos.
+- ¡Javascript en el mundo de hoy!
+- Instalación del ambiente de trabajo (VM, Linux, VSCode).
+- Familiarización con el ambiente de trabajo.
+- ¡Javascripting!
+- Laboratorios ... muchos.
 
 ---
 
