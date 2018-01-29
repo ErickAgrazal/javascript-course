@@ -23,3 +23,23 @@ CONTROL + ALT + SPR
 Ó
 
 ![Abrir terminal](assets/javascripting/open_terminal.png)
+
+--- 
+
+El terminal
+-----------
+
+![Terminal abierlo](assets/javascripting/terminal_opened.png)
+
+---
+
+Ejecutamos <span style="color: #e49436">Javascripting</span>
+------------------------------------------------------------
+
+![Javascripting command](assets/javascripting/javascripting_terminal_command.png)
+
+---
+
+Resultado esperado, de la ejecución del comando
+
+![Resultado de javascripting](assets/javascripting/javascripting_terminal_command_executed.png)
