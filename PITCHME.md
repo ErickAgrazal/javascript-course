@@ -1,4 +1,5 @@
 ## Curso de <span style="color: #e49436">javascript</span>
+### Introducción a javascript
 #### <span style="color: #e49436">Dictado por:</span>
 ##### Prof. Erick Agrazal
 #### <span style="color: #e49436">¿A qué me dedico?</span>
@@ -6,311 +7,62 @@
 
 ---
 
-¿A qué me dedico?
------------------
-###### - All Safe Solutions <span style="color: #e49436">(35%)</span>
-###### - Founders Balboa Innovation Group <span style="color: #e49436">(20%)</span>
-###### - Smart Motion <span style="color: #e49436">(20%)</span>
-###### - Profesor <span style="color: #e49436">(20%)</span>
-###### - Entre otras cosas <span style="color: #e49436">(5%)</span>
+¿Qué es Javascript?
+-------------------
+- Es un lenguage de programación <span style="color: #e49436">Robusto</span>.
+- Es un lenguage orientado a objetos y eventos.
+- Inventado por: <span style="color: #e49436">Brendan Eich</span>.
+- En estos momentos, esta presente en todas partes.
 
 ---
 
-Nos compete Javascript
+A lo nuestro
+------------
+
+### ¡Hola mundo!
+
+---
+
+Variables (Definición)
 ----------------------
 
----
+- Todas las líneas deben terminar en punto y coma.
+- Las variables pueden tener <span style="color: #e49436">casi</span> cualquier nombre.
+- Sensibles entre mayúsculas/minúsculas.
 
-Objetivo General
----------
-###### - Familiarizar al estudiante con javascript en el contexto de la <span style="color: #e49436">web</span>.
-
----
-
-Objetivos Específicos
----------------------
-###### - Entender qué es <span style="color: #e49436">Javascript</span> como lenguaje de programación.
-###### - Aprender la <span style="color: #e49436">sintaxis</span> para y utilizar <span style="color: #e49436">funciones básicas</span> del lenguaje.
-###### - Conocer elementos como <span style="color: #e49436">funciones</span>, <span style="color: #e49436">arreglos</span> y <span style="color: #e49436">objetos</span> del lenguaje.
-###### - Conocer los <span style="color: #e49436">principales</span> objetos de javascript en el entorno web.
-
----
-
-Objetivos Específicos
----------------------
-###### - Acceder y editar elementos <span style="color: #e49436">HTML/CSS</span>.
-###### - Conocer el entorno de trabajo (Framework) <span style="color: #e49436">JQuery</span> y utilizarlo para interactuar con elementos de un sitio web.
-###### - Conocer los <span style="color: #e49436">patrones</span> más utilizados a la hora de trabajar en el proyectos de Javascript.
-
----
-
-¿Cómo logramos alcanzar nuestros objetivos?
--------------------------------------------
-
----
-
-Agenda
-------
-- ¡Javascript en el mundo de hoy!
-- Instalación del ambiente de trabajo (VM, Linux, VSCode).
-- Familiarización con el ambiente de trabajo.
-- ¡Javascripting!
-- Laboratorios ... muchos.
-
----
-
-¿Preguntas hasta el momento?
-----------------------------
-
----
-
-Si no hay preguntas... empezamos.
----------------------------------
-
----
-
-¡Javascript en el mundo de hoy!
--------------------------------
-
----
-
-Javascript != Java
-------------------
-
-![Javascript_Hamster](assets/java_vs_javascript.png)
-
----
-
-## Vivímos el futuro de la web, y es hermoso.
-![Spotify](https://cdn-images-1.medium.com/max/800/1*7L09qgc4Xnz_vRVAKW-hhg.png)
-
----
-
-## ¿Cómo llegamos hasta aquí?
-
----
-
-El inicio fue Flash ...
-------------------
-
-![Adobe Flash](https://addons.cdn.mozilla.net/user-media/previews/full/144/144974.png?modified=1413224838 "Logo de Adobe Flash")
-
----
-
-Flash
------
-
-- Reproducción de audio y video
-- Comunicación en tiempo real
-- Animaciones aceleradas por _hardware_
-- Una sintaxis similar a **Javascript**
-- Un *framework* para crear interfaces 
-  gráficas multiplataformas (*Adobe Flex*) 
-
----
-
-La ilusión no demoró mucho
---------------------------
-
-![Steve Jobs](https://qph.ec.quoracdn.net/main-qimg-2fd2f7529b33f1ccd1f95d62ad0a66e2-c "Imagen de Steve Jobs")
-
----
-
-Apple nos hizo retroceder un poco
----------------------------------
-
->Flash es una tecnología *cerrada*, perteneciente a Adobe, y si las personas continúan usando Flash, pronto Adobe también será dueño de internet. Apple no quiere eso.
-- Un "pobre" resúmen de la carta de Steve Jobs
-
-
----
-
-Pero nos ofrecieron una solución... ¿Cierto?
---------------------------------------------
-
-```
-// ~/Desktop/interface.m
-
-// In @interface
-@property (nonatomic, assign) CGFloat lastContentOffset;
-
-//Scroll view delegate methods
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
-{
-    if (self.tableView == scrollView) {
-        if (scrollView.contentOffset.y - self.lastContentOffset < -90) {
-            [self.activeField resignFirstResponder];
-        }
-    }
-}
-
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
-    if (scrollView != self.tableView) {
-        return;
-    }
-
-    self.lastContentOffset = scrollView.contentOffset.y;
-}
+```js
+var nombreDeLaVariable;
 ```
 
 ---
 
-Nacimiento de HTML5
+Variables (Asignación)
+----------------------
+
+```js
+nombreDeLaVariable = 'Hola mundo';
+var nombreDeLaVariable = 'Hola mundo';
+
+var nombreDeLaVariable = 'Bob';
+nombreDeLaVariable = 'Steve';
+```
+---
+
+Variables (Lectura)
 -------------------
 
-![HTML5](https://cdn-images-1.medium.com/max/800/1*Lk7YWiSeDYGd-ITVUXbBbA.png "HTML5 Logo")
-
+```js
+nombreDeLaVariable;
+```
 ---
 
-Llegó Javascript, cambió el juego
----------------------------------
-
-![Javascript Logo](assets/javascript_logo.png "Javascript Logo")
-- European Computer Manufacturers Association <span style="color: #e49436">(ECMA)</span>
-
----
-
-Javacript en el día de hoy
+Variables (Tipos de datos)
 --------------------------
 
-![You're wrong kiddo](assets/javascript_you_are_wrong.png "You're wrong kiddo")
-
----
-
-Javacript en el día de hoy
---------------------------
-
-- Frontend
-- Backend
-- Aplicaciones Móviles
-- Apicaciones Locales
-- ¡Hasta IoT y Robótica!
-
----
-
-Frontend
---------
-
-![Vue Logo](assets/vue_js_logo.png)
-- Jquery... <span style="color: #e49436">Fue genial.</span>
-- Angular 1.0 JS
-- Angular 2.0 JS
-- React JS
-- Vue JS
-
----
-
-Backend
--------
-
-Llegó Node.JS en 2009... <span style="color: #e49436">¡Gracias Ryan Dahl's!</span>
-![NodeJS](assets/nodejs_logo.png "Node JS Logo")
-![Chrome V8](assets/chrome_v8_logo.png "Chrome v8 logo")
-
----
-
-Backend
--------
-
-![Express](assets/express_logo.png "Express Logo")
-- Express JS
-- Sails JS
-- Meteor JS
-
----
-
-Aplicaciones Móviles
---------------------
-
-![React](assets/react_logo.png "React Logo")
-- React Native
-- Titanium
-
----
-
-Aplicaciones Locales
---------------------
-
-![Electron](assets/electron_logo.png "Electron logo")
-- Electron JS
-
----
-
-¡Hasta IoT y Robótica!
-----------------------
-
-![Jhonny Five](assets/jhonny_five_robot_2.png "Jhonny Five Logo")
-- Jhonny Five JS
-- NodeMCU
-- Arduino
-
----
-
-¡Incluso Bases de Datos!
-------------------------
-
-![Mongo DB](assets/mongodb_logo.png "Mongo logo")
-- Mongo DB <span style="color: #e49436">(Para las consultas)</span>
-
----
-
-¿Quién utiliza Javascript?
---------------------------
-
-![Production Images](assets/production_js_logo.png "Production Images")
-
----
-
-Seguridad en Javascript
------------------------
-![Mr. Robot](assets/mr_robot_logo.png "Mr. Robot Logo")
-- Ataques:
-  - XSS <span style="color: #e49436">(Cross-Site Scripting)</span>
-  - CSRF <span style="color: #e49436">(Cross-Site Request Forgery)</span>
-  - *Básicamente los mismos que los demás lenguajes (Backend)*
-
----
-
-Seguridad en Javascript (Express)
------------------------
-![Mr. Robot](assets/mr_robot_logo.png "Mr. Robot Logo")
-- HTTPS
-- CSURF, <span style="color: #e49436">protección contra CSRF</span>
-- XSS
-
----
-
-Seguridad en Javascript (Express)
------------------------
-
-- Parametrización de consultas
-- SQLMap, <span style="color: #e49436">herramienta para detectar 
-  ataques de inyección de SQL</span>
-- NMAP y SSLYZE, <span style="color: #e49436">probar
-  configuraciones</span> de SSL, métodos de cifrado, llaves
-  además de la revisión de la validez de los certificados digitales.
-
----
-
-No todo es bonito...
--------------------------
-![Javascript Fatigue](assets/javascript_fatigue.png "Javascript Fatigue")
-- Problemas con cálculos complejos. (2^53-1)
-- La *fatiga* de JS.
-
----
-
-¿Dónde aprender Javascript?
----------------------------
-
-- [Freecodecamp](https://www.freecodecamp.org/)
-- [Addy Osmany](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
----
-
-## Para volver a ver la presentación
-#### [https://github.com/ErickAgrazal/javascript-in-the-real-world/blob/master/PITCHME.md](https://github.com/ErickAgrazal/javascript-in-the-real-world/blob/master/PITCHME.md)
-
----
-
-## Conclusión
+| Variable | Explicación                                                                                                                                 | Ejemplo                                                                                                                |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| String   | Una cadena de texto. Para indicar que la variable es una cadena, debes,escribirlo entre comillas.                                           | ```js var miVariable = 'Bob'; ```                                                                                      |
+| Number   | Un número. Los números no tienen comillas.                                                                                                  | ```js var miVariable = 10; ```                                                                                         |
+| Boolean  | Tienen valor verdadero/falso. true/false son palabras especiales en JS, y no necesitan comillas.                                            | ```js var miVariable = true; ```                                                                                       |
+| Array    | Una estructura que te permite almacenar varios valores en una sola referencia.                                                              | ```js var miVariable = [1,'Bob','Steve',10];Llama a cada miembro del array así: miVariable[0], miVariable[1], etc. ``` |
+| Object   | Básicamente cualquier cosa. Todo en JavaScript es un objeto y puede ser almacenado en una variable. Mantén esto en mente mientras aprendes. | ```js var miVariable = document.querySelector('h1');Todos los ejemplos anteriores también. ```                         |
