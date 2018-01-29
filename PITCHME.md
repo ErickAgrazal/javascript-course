@@ -40,9 +40,11 @@ Variables (Asignación)
 ----------------------
 
 ```js
+// Asignaciones regulares
 nombreDeLaVariable = 'Hola mundo';
 var nombreDeLaVariable = 'Hola mundo';
 
+// Reescritura del contenido de la variable
 var nombreDeLaVariable = 'Bob';
 nombreDeLaVariable = 'Steve';
 ```
@@ -59,10 +61,4 @@ nombreDeLaVariable;
 Variables (Tipos de datos)
 --------------------------
 
-| Variable | Explicación                                                                                                                                 | Ejemplo                                                                                                                |
-|----------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| String   | Una cadena de texto. Para indicar que la variable es una cadena, debes,escribirlo entre comillas.                                           | ```js var miVariable = 'Bob'; ```                                                                                      |
-| Number   | Un número. Los números no tienen comillas.                                                                                                  | ```js var miVariable = 10; ```                                                                                         |
-| Boolean  | Tienen valor verdadero/falso. true/false son palabras especiales en JS, y no necesitan comillas.                                            | ```js var miVariable = true; ```                                                                                       |
-| Array    | Una estructura que te permite almacenar varios valores en una sola referencia.                                                              | ```js var miVariable = [1,'Bob','Steve',10];Llama a cada miembro del array así: miVariable[0], miVariable[1], etc. ``` |
-| Object   | Básicamente cualquier cosa. Todo en JavaScript es un objeto y puede ser almacenado en una variable. Mantén esto en mente mientras aprendes. | ```js var miVariable = document.querySelector('h1');Todos los ejemplos anteriores también. ```                         |
+![Variables_types](assets/javascript_introduction/variables_types.png)
