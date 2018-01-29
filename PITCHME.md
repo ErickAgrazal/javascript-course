@@ -12,3 +12,14 @@ Javascripting
 ![Nodeschool.io](assets/javascripting/nodeschool.png)
 
 ---
+
+Comenzemos por...
+-----------------
+
+```
+CONTROL + ALT + SPR
+```
+
+Ó
+
+![Abrir terminal](assets/javascripting/open_terminal.png)
