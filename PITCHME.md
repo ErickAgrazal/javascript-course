@@ -100,4 +100,4 @@ Operadores
 Operadores
 ----------
 
-[https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores](¡Ver más operadores...!)
+[¡Ver más operadores...!](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores)
