@@ -93,7 +93,7 @@ Operadores
 Operadores
 ----------
 
-![operators](assets/javascript_introduction/operators_2.png)
+![operators](assets/javascript_introduction/operators_2.png =500x500)
 
 ---
 
