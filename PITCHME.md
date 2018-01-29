@@ -101,3 +101,49 @@ Operadores
 ----------
 
 [¡Ver más operadores...!](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores)
+
+--- 
+
+Condicionales
+-------------
+
+```js
+var helado = 'chocolate';
+if (helado === 'chocolate') {
+  alert('¡Si, amo el helado de chocolate!');    
+} else {
+  alert('Awwww, pero mi favorito es el de chocolate...');    
+}
+```
+
+---
+
+Funciones 
+---------
+
+Ya hemos visto algunas, como:
+```js
+var titulo = document.getElementById('site-name');
+alert('Alerta!');
+```
+
+--- 
+
+Funciones propias
+-----------------
+
+```js
+function multiplica(num1,num2) {
+  var resultado = num1 * num2;
+  return resultado;
+}
+
+multiplica(4,7);
+multiplica(20,20);
+multiplica(0.5,3);
+```
+
+---
+
+¡A practicar!
+-------------
