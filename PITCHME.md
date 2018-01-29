@@ -40,7 +40,7 @@ Ejecutamos <span style="color: #e49436">Javascripting</span>
 
 ---
 
-Resultado esperado, de la ejecución del comando
+Resultado esperado
 -----------------------------------------------
 
 ![Resultado de javascripting](assets/javascripting/javascripting_terminal_command_executed.png)
